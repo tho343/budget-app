@@ -1,0 +1,43 @@
+.budget-item-container{
+    background-color: whitesmoke;
+    min-width: 350px;
+}
+
+.budget-item-container{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    box-shadow: 0px 15px 30px 5px rgba(0,0,0,0.3);
+   
+    
+}
+.budget-card-wrapper{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+   
+}
+.budget-item-top-elements{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+.budget-item-bottom-elements{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.budget-card-wrapper{
+    position: relative;
+}
+.budget-item-name{
+    text-transform: capitalize;
+}
+.budget-item-name{
+    font-family: 'League Spartan', sans-serif;
+    font-size: 15px;
+}
